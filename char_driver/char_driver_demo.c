@@ -54,7 +54,7 @@ struct file_operations fops={
 .owner=THIS_MODULE,
 .write=device_write,
 .open=device_open,
-.read=device_read,
+.read=device_read
 };
 
 
